@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Inspect Engine</title>
+        <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    
+                </ul>
+            </nav>
+            <h3 class="text-muted">Inspect Engine App</h3>
+        </div>
+            
+            <form method = "POST" action = "/upload" enctype = "multipart/form-data">
+                <div class="jumbotron">
+                    <div class="form-group">
+                        <h4 for="inputFile">File input</h4>
+                        <input type = "file" name = "inputFile" >
+                    </div>
+                    <p><button type = "submit" class="btn btn-lg btn-success">Submit</button> </p>
+                    
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
